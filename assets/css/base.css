@@ -41,7 +41,7 @@ html {
     flex-wrap: wrap;
     margin-left: -5px;
     margin-right: -5px;
-    /* justify-content: space-evenly; */
+    /* width: 100%; */
 }
 
 /* Test */
@@ -54,7 +54,7 @@ html {
 .grid__column-2-4 {
     margin-left: 5px;
     margin-right: 5px;
-    width: 20%;  
+    width: calc(20% - 10px);  
 }
 
 .grid__column-10 {
